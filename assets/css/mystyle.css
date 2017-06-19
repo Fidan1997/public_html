@@ -1,0 +1,185 @@
+  .treeTitle {
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .treediv {
+    width: 50%;
+    float: left;
+  }
+
+  .treeright > li {
+    text-align: left;
+  }
+
+  .treeleft > li:hover {
+      margin-right: 6px;
+  }
+
+  .treeright > li:hover {
+      margin-left: 6px;
+  }
+  
+  .treeleft > li:first-child:hover {
+      margin-right: 0px;
+  }
+
+  .treeright > li:first-child:hover {
+      margin-left: 0px;
+  }
+  
+  .treeright > li{
+    background-color: #31C2EE;
+  } 
+  
+  .treeleft > li {
+    text-align: right;
+    background-color: #1A90B8;
+  }
+
+  .tree {
+    padding: 0;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .tree > li > a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: help;
+  }
+
+  .tree > li {
+    list-style: none;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .tree > li:first-child {
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 110%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+
+  span.red {
+    color: red;
+    text-decoration: underline;
+  }
+
+  p.centre {
+    text-align: center;
+  }
+
+  span.cixarish {
+      font-size:120%;
+    }
+
+  p.documentTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size:120%;
+    color: rgb(10, 65, 103);
+    font-weight: 700;
+  }
+
+  p.litte {
+    text-align: center; 
+    font-size: 80%;
+  }
+
+  div .a > ul{
+  	 list-style: none;
+  	 padding-left: 10px;
+  }
+
+  div .a > ul > li:before {
+    content:  "—";
+  	position: relative;
+  	left:     -5px;
+  }
+
+  li.tree_desc {
+      padding: 6px; 
+      margin: -1px 0px 5px;
+      background-color: rgba(143, 143, 143, 0.2);
+      color: rgb(0, 0, 0);
+      border: 0px;
+      text-align: left;
+  }
+
+  li.tree_desc:hover {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+  }
+
+  .mar0 {
+    margin: 0px !important; 
+  }
+  .tree_desc_title:hover {
+      padding: 5px !important;
+  }
+
+  .tree_desc_sub {
+    margin: 10px; 
+    display: block;
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  .need_documents_list {
+    text-align: center;
+    font-size:110%;
+    color: #000;
+    display: block;
+  }
+
+    @media screen and (max-width: 620px) {
+
+      .tree {
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+
+      .documents_list {
+        margin-right: 0px;
+      }
+      
+      .treediv {
+        width: 100%;
+        float: none;
+      }
+
+      .treeTitle {
+        font-size: 4vw;
+        color: #000;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: 400;
+      }
+
+      .treeleft > li {
+        text-align: left;
+      }
+
+      .treeleft > li:hover {
+          margin-right: 0px;
+      }
+
+      .treeright > li:hover {
+          margin-left: 0px;
+      }
+
+    }

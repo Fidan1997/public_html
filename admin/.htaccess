@@ -1,0 +1,5 @@
+Options All -Indexes
+AuthType Basic
+AuthName "access denied"
+AuthUserFile "/home2/mida/.htpasswds/public_html/admin/passwd"
+require valid-user

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.agencytop {
+	position: fixed;
+	z-index:2000;
+	width: 100%;
+	background: rgba(228,228,228,1.00);
+	border-bottom: 1px solid rgba(212,212,212,1.00);
+}
+.agencytop:hover {
+	position: fixed;
+	z-index:2000;
+	width: 100%;
+	background:rgba(0,111,162,1.00);
+	border-bottom: 1px solid rgba(0,111,162,1.00);
+}
+.agencytop:hover a { color:rgba(255,255,255,1.00) !important;
+}
+a.agencylogo {
+	padding: 13px 10px 15px 50px;
+	display:block;
+	text-decoration:none;
+	background: url(../images/emblem.png) no-repeat 5px 5px;
+	background-size: 30px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.702);
+	text-transform: uppercase;
+	-webkit-box-shadow: -1px 9px 46px -16px rgba(0,0,0,0.57);
+	-moz-box-shadow: -1px 9px 46px -16px rgba(0,0,0,0.57);
+	box-shadow: -1px 9px 46px -16px rgba(0,0,0,0.57);
+}
+
+.agencymenu {
+	float: right;
+	margin-top: -33px;
+}
+.agencymenu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.agencymenu ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.agencymenu ul li a {
+	color: rgba(108,108,108,1.00);
+	font-weight: bolder;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.agencymenu ul li a:hover {
+	color: rgba(182,0,39,1.00);
+}
+
+.twitter {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+}
+

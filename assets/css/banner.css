@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.banner1 {
+	background: url(../images/banner/1/first.png) no-repeat top left, url(../images/banner/1/right.png) no-repeat top right, url(../images/banner/1/center.png) top center repeat-x;
+	height: 100%;
+}
+.banner2 {
+	background: url(../images/banner/2/first.png) no-repeat top left, url(../images/banner/2/right.png) no-repeat top right, url(../images/banner/2/center.png) top center repeat-x;
+	height: 100%;
+}
